@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>796</width>
+    <height>536</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Times</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Заказ в Макдоналдсе</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="gridGroupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>751</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="11" column="3">
+      <widget class="QSpinBox" name="spinBox_20"/>
+     </item>
+     <item row="11" column="1">
+      <widget class="QSpinBox" name="spinBox_10"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QCheckBox" name="checkBox">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="text">
+        <string>Чизбургер - 50</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="1">
+      <widget class="QSpinBox" name="spinBox_9"/>
+     </item>
+     <item row="7" column="1">
+      <widget class="QSpinBox" name="spinBox_6"/>
+     </item>
+     <item row="5" column="1">
+      <widget class="QSpinBox" name="spinBox_4"/>
+     </item>
+     <item row="2" column="1">
+      <widget class="QSpinBox" name="spinBox"/>
+     </item>
+     <item row="4" column="1">
+      <widget class="QSpinBox" name="spinBox_3"/>
+     </item>
+     <item row="7" column="3">
+      <widget class="QSpinBox" name="spinBox_16"/>
+     </item>
+     <item row="4" column="2">
+      <widget class="QCheckBox" name="checkBox_13">
+       <property name="text">
+        <string>Чай чёрный - 70</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="0" colspan="4">
+      <widget class="QPushButton" name="button_final">
+       <property name="text">
+        <string>Заказать</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="2">
+      <widget class="QCheckBox" name="checkBox_16">
+       <property name="text">
+        <string>Фанта - 65</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="2">
+      <widget class="QCheckBox" name="checkBox_17">
+       <property name="text">
+        <string>Молочный коктейль - 99</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QCheckBox" name="checkBox_2">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="text">
+        <string>Гамбурег - 48</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QCheckBox" name="checkBox_4">
+       <property name="text">
+        <string>Филе-О-Фиш - 145</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QCheckBox" name="checkBox_6">
+       <property name="text">
+        <string>Картошка Фри - 59</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QCheckBox" name="checkBox_3">
+       <property name="text">
+        <string>Биг Мак - 135</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="2">
+      <widget class="QCheckBox" name="checkBox_19">
+       <property name="text">
+        <string>Мороженое - 70</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QCheckBox" name="checkBox_5">
+       <property name="text">
+        <string>Чикен МакНаггетс - 69</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="0">
+      <widget class="QCheckBox" name="checkBox_8">
+       <property name="text">
+        <string>Цезарь Ролл - 163</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="0">
+      <widget class="QCheckBox" name="checkBox_9">
+       <property name="text">
+        <string>Салат Цезарь - 269</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="2">
+      <widget class="QCheckBox" name="checkBox_20">
+       <property name="text">
+        <string>Вафельный рожок - 29</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="3">
+      <widget class="QSpinBox" name="spinBox_15"/>
+     </item>
+     <item row="6" column="1">
+      <widget class="QSpinBox" name="spinBox_5"/>
+     </item>
+     <item row="9" column="1">
+      <widget class="QSpinBox" name="spinBox_8"/>
+     </item>
+     <item row="3" column="1">
+      <widget class="QSpinBox" name="spinBox_2"/>
+     </item>
+     <item row="2" column="2">
+      <widget class="QCheckBox" name="checkBox_11">
+       <property name="text">
+        <string>Кофе - 80</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="2">
+      <widget class="QCheckBox" name="checkBox_15">
+       <property name="text">
+        <string>Спрайт - 65</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QSpinBox" name="spinBox_7"/>
+     </item>
+     <item row="4" column="3">
+      <widget class="QSpinBox" name="spinBox_13"/>
+     </item>
+     <item row="11" column="0">
+      <widget class="QCheckBox" name="checkBox_10">
+       <property name="text">
+        <string>Морковные палочки - 44</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="3">
+      <widget class="QSpinBox" name="spinBox_14"/>
+     </item>
+     <item row="10" column="3">
+      <widget class="QSpinBox" name="spinBox_19"/>
+     </item>
+     <item row="5" column="2">
+      <widget class="QCheckBox" name="checkBox_14">
+       <property name="text">
+        <string>Кола - 65</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="2">
+      <widget class="QCheckBox" name="checkBox_18">
+       <property name="text">
+        <string>Пирожок - 50</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QCheckBox" name="checkBox_12">
+       <property name="text">
+        <string>Капучино - 99</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QCheckBox" name="checkBox_7">
+       <property name="text">
+        <string>Картофель по-деревенски - 77</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QSpinBox" name="spinBox_11"/>
+     </item>
+     <item row="3" column="3">
+      <widget class="QSpinBox" name="spinBox_12"/>
+     </item>
+     <item row="9" column="3">
+      <widget class="QSpinBox" name="spinBox_18"/>
+     </item>
+     <item row="8" column="3">
+      <widget class="QSpinBox" name="spinBox_17"/>
+     </item>
+     <item row="2" column="4" rowspan="11">
+      <widget class="QListWidget" name="lineEdit"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>796</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
